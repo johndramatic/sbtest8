@@ -1,5 +1,5 @@
 --- 
-name: lbip7
+name: lbip8
 namespace: com.citrix.adc.commontypes
 version: "1.0"
 private: true
