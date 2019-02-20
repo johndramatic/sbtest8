@@ -1,0 +1,24 @@
+--- 
+name: lbsvctype7
+namespace: com.citrix.adc.commontypes
+version: "1.0"
+private: true
+schema-version: "1.0"
+
+parameters: 
+  - 
+    name: lb-service-type
+    label: "Load Balanced App Protocol"
+    description: "Protocol used for the Load Balanced application."
+    type: string
+    default: HTTP    
+    required: true
+    gui:
+      updatable: false
+    allowed-values: 
+      - HTTP
+      - SSL
+      - SSL_BRIDGE
+      - TCP
+      - UDP
+      - ANY
