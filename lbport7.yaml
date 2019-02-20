@@ -1,0 +1,16 @@
+--- 
+name: lbport7
+namespace: com.citrix.adc.commontypes
+version: "1.0"
+private: true
+schema-version: "1.0"
+
+parameters: 
+  - 
+    name: lb-virtual-port
+    label: "Load Balanced App Virtual Port"
+    description: "TCP port representing the Load Balanced application"
+    type: tcp-port
+    gui:
+      updatable: false
+    default: 80
