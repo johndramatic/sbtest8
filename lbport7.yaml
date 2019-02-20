@@ -13,4 +13,4 @@ parameters:
     type: tcp-port
     gui:
       updatable: false
-    default: 80
+    default: 443
