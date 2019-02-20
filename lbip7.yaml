@@ -1,0 +1,14 @@
+--- 
+name: lbip7
+namespace: com.citrix.adc.commontypes
+version: "1.0"
+private: true
+schema-version: "1.0"
+
+parameters: 
+  - 
+    name: lb-virtual-ip
+    label: "Load Balanced App Virtual IP address"
+    description: "Virtual IP address representing the Load Balanced application"
+    type: ipaddress
+    required: true
