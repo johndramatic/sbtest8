@@ -3,6 +3,7 @@ name: lbip8
 namespace: com.citrix.adc.commontypes
 version: "3.0"
 schema-version: "1.0"
+private: true
 
 parameters: 
   - 
