@@ -19,7 +19,7 @@ parameters-default-sources:
   - cmtypes::lbip8
   - cmtypes::lbport8
   - cmtypes::lbsvctype8
-  - cmtypes::lb6vctype8
+  - cmtypes::lb77vctype8
 
 
 components: 
